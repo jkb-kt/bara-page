@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(109, 99, 110);
+    margin:0;
+}
+
+.icons {
+   text-align: center;
+    height: inherit;
+    margin: 0 35%;
+    
+    }
+
+   .icon1 {
+    border-right: 1px solid rgb(102, 102, 102);
+    float: left;
+    height: inherit;
+    width: 49.5%;
+   
+   }
+
+   .icon1 img {
+    padding-top: 15px;
+   
+   }
+
+   .icon2 {
+    border-right: 1px solid rgb(102, 102, 102);
+    float:left;
+    width: 49.5%;
+    height: inherit;
+   }
+
+   .icon2 img {
+    padding-top: 15px;
+   
+   }
+
+.content {
+    width: 100%;
+    position: relative;
+    
+    
+}
+
+.background {
+   width: 100%;
+   max-height: 700px;
+    
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(17, 17, 17);
+    position: absolute;
+    top: 0;    
+}
+
+.text {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    bottom: 50%;
+    
+}
+
+h1 {
+    color: yellow;
+   text-align: center;
+}
+
+.left {
+    width: 20%;
+    float: left;
+}
+
+.middle {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 30%;
+    float: left;
+}
