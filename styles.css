@@ -37,20 +37,20 @@ body {
 }
 
 .nav-link:hover {
-    background-color:rgb(97, 97, 97);
+    background-color: rgb(68, 65, 68);
 }
 
-.nav-link:active {
-    background-color:red;
+.selected {
+    background-color: rgb(68, 65, 68);
 }
+
 
 
 .text {
     position: absolute;
     width: 100%;
     top: 50%;
-    bottom: 50%;
-    
+    bottom: 50%;  
 }
 
 
