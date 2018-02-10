@@ -3,38 +3,6 @@ body {
     margin:0;
 }
 
-.icons {
-   text-align: center;
-    height: inherit;
-    margin: 0 35%;
-    
-    }
-
-   .icon1 {
-    border-right: 1px solid rgb(102, 102, 102);
-    float: left;
-    height: inherit;
-    width: 49.5%;
-   
-   }
-
-   .icon1 img {
-    padding-top: 15px;
-   
-   }
-
-   .icon2 {
-    border-right: 1px solid rgb(102, 102, 102);
-    float:left;
-    width: 49.5%;
-    height: inherit;
-   }
-
-   .icon2 img {
-    padding-top: 15px;
-   
-   }
-
 .content {
     width: 100%;
     position: relative;
@@ -48,13 +16,17 @@ body {
     
 }
 
-.header {
-    width: 100%;
-    height: 60px;
-    background-color: rgb(17, 17, 17);
-    position: absolute;
-    top: 0;    
+.nav {
+    background-color: rgb(15, 15, 15);
 }
+
+
+
+.nav-item {
+    border-right: 1px solid gray;
+    
+}
+
 
 .text {
     position: absolute;
@@ -70,16 +42,14 @@ h1 {
 }
 
 .left {
-    width: 20%;
-    float: left;
+    text-align:right;
+}
+
+.row {
+    margin-top: 2%;
 }
 
 .middle {
-    width: 50%;
-    float: left;
-}
-
-.right {
-    width: 30%;
-    float: left;
+    text-align:left;
+    padding: 0 5%;
 }
